@@ -1,0 +1,206 @@
+/* Here are the variables you can change in order to meet your design requirements */
+:root{
+    --white: hsl(0, 0%, 100%); /* White color */
+    --Stone100: hsl(30, 54%, 90%); /* Light stone color */
+    --Stone150: hsl(30, 18%, 87%); /* Intermediate stone color */
+    --Stone600: hsl(30, 10%, 34%); /* Dark stone color */
+    --Stone900: hsl(24, 5%, 18%); /* Very dark stone color */
+    --Brown800: hsl(14, 45%, 36%); /* Dark brown color */
+    --Rose800: hsl(332, 51%, 32%); /* Dark rose color */
+    --Rose50: hsl(330, 100%, 98%); /* Light rose color */
+    --fontYoungSerif: "Young Serif", serif; /* Young Serif font */
+    --fontOutfit: "Outfit", serif; /* Outfit font */
+    --fontSize: 16px; /* Base font size */
+}
+
+body{
+    height: 350vh; /* Height of the body */
+    background-color: var(--Stone100); /* Background color of the body */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Direction of elements in column */
+    align-items: center; /* Align items to the center horizontally */
+    justify-content: center; /* Align items to the center vertically */
+    font-size: var(--fontSize); /* Base font size */
+    width: 100%; /* Full width of the body */
+    margin: 0; /* Remove default margins */
+    font-family: var(--fontOutfit);
+}
+
+.externalContainer{
+    border-radius: 2vh; /* Rounded borders */
+    background-color: var(--white); /* White background color */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items to the center horizontally */
+    justify-content: center; /* Align items to the center vertically */
+    height: auto; /* Automatic height */
+    width: 90vh; /* Fixed width */
+    margin-bottom: 5vh; /* Bottom margin */
+}
+
+.internalContainer{
+    border-radius: 2vh; /* Rounded borders */
+    width: 80vh; /* Fixed width */
+    margin: 5vh 0; /* Top and bottom margin */
+}
+
+.recipeImage{
+    background-image: url(../images/image-omelette.jpeg); /* Background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    border-radius: 2vh; /* Rounded borders */
+    width: 100%; /* Full width */
+    height: 40vh; /* Fixed height */
+}
+
+.recipeInformation h1{
+    font-family: var(--fontYoungSerif); /* Young Serif font */
+    font-size: 42px; /* Font size */
+    font-weight: 400; /* Font weight */
+    color:black;
+}
+
+.recipeInformation{
+    font-family: var(--fontOutfit); /* Outfit font */
+    font-weight: 400; /* Font weight */
+    color:var(--Stone600)
+}
+
+.recipePreparationTime{
+    width: 100%; /* Full width */
+    background-color: var(--Rose50); /* Light rose background color */
+    border-radius: 1vh; /* Rounded borders */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Align items to the center horizontally */
+    align-items: center; /* Align items to the center vertically */
+    margin: 4vh 0; /* Top and bottom margin */
+}
+
+.recipePreparationTimeContent{
+    width: 90%; /* Fixed width */
+    padding: 2vh; /* Internal padding */
+    font-weight: 800; /* Font weight */
+    font-size: 16px;
+    color: var(--Stone600);
+}
+
+.recipePreparationTimeContent h4{
+    color: var(--Rose800); /* Dark rose text color */
+    font-size: 18px; /* Font size */
+    font-family: var(--fontOutfit); /* Outfit font */
+    margin-bottom: 1vh; /* Bottom margin */
+}
+
+.recipePreparationTimeContent li::marker{
+    color: var(--Rose800); /* List marker color */
+}
+
+.recipePreparationTime p{
+    padding-left: 3vh; /* Left padding */
+}
+
+.recipePreparationTimeContent span{
+    font-weight: 400; /* Font weight */
+}
+
+.recipeIngredients, .recipeInstructions{
+    padding-bottom: 4vh; /* Bottom padding */
+    border-bottom: 1px solid var(--Stone150); /* Bottom border */
+    margin-bottom: 4vh; /* Bottom margin */
+}
+
+.recipeIngredients li::marker, .recipeInstructions li::marker, .recipeNutrition h4{
+    color: var(--Brown800); /* List marker and nutrition headers color */
+}
+
+.recipeIngredients h4, .recipeInstructions h4, .recipeNutrition h4{
+    color: var(--Brown800); /* Dark brown text color */
+    font-family: var(--fontYoungSerif); /* Young Serif font */
+    font-size: 25px; /* Font size */
+    font-weight: 400; /* Font weight */
+    margin-bottom: 2vh; /* Bottom margin */
+}
+
+.recipeIngredients{
+    font-weight: 400; /* Font weight */
+    font-family: var(--fontOutfit); /* Outfit font */
+    color: var(--Stone600); /* Dark stone text color */
+}
+
+.recipeIngredients p, .recipeInstructions p{
+    padding-left: 2vh; /* Left padding */
+}
+
+.recipeInstructions{
+    font-weight: 800; /* Font weight */
+    font-family: var(--fontOutfit); /* Outfit font */
+    color: var(--Stone600); /* Dark stone text color */
+}
+
+.recipeInstructions span{
+    font-weight: 400; /* Font weight */
+}
+
+.recipeInstructions li{
+    margin-bottom: 1vh; /* Bottom margin */
+}
+
+.recipeInstructions li:last-of-type{
+    margin-bottom: 0; /* No bottom margin for the last item */
+}
+
+/* Additional table styles */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin: 2vh 0; /* Top and bottom margin */
+    font-family: var(--fontOutfit); /* Font family for table */
+}
+
+td {
+    padding: 1vh 2vh; /* Padding for table cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid var(--Stone150); /* Bottom border */
+    color: var(--Stone600); /* Text color for table cells */
+    font-weight: 400; /* Font weight for table cells */
+}
+
+tr:last-of-type{
+    border-bottom: none;
+}
+
+
+.recipeNutrition p{
+    margin: 2vh 0; /* Top and bottom margin */
+    color: var(--Stone600);
+}
+.recipeNutrition span{
+    color: var(--Brown800);
+    font-weight: 600;
+}
+
+/* Media Query to adapt the website to mobile screens, should be 468 but whatever */
+@media (min-width: 375px){
+
+}
+
+/* Media Query to adapt the website to desktop screens, should be 768 but whatever */
+@media (min-width: 1440px){
+    .externalContainer{
+        /* Specific styles for large screens */
+    }
+    .internalContainer{
+        /* Specific styles for large screens */
+    }
+}
+
+.attribution { 
+    font-size: 11px; /* Font size */
+    text-align: center; /* Center text alignment */
+    color: #1D1616; /* Text color */
+    text-align: left; /* Left text alignment */
+}
+
+.attribution a { 
+    color: #8E1616; /* Link color */
+}
