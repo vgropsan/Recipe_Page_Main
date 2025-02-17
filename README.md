@@ -5,7 +5,8 @@ This project presents a UI design for a simple omelette recipe. The interface is
 ## 📷 Preview
 
 ### 📱 Mobile Design
-![Mobile Design](./mobile-design.jpg)
+![mobile-design](https://github.com/user-attachments/assets/a3559005-0f44-41ae-a072-d2e46cf6f6bd)
+
 
 ### 🖥 Desktop Design
 ![Desktop Design](./preview.jpg)
@@ -24,7 +25,7 @@ This project presents a UI design for a simple omelette recipe. The interface is
 ## 🛠 Installation and Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/vgropsan/Recipe_Page_Main.git
    ```
 2. Open the `index.html` file in your browser.
 3. Customize styles or structure as needed.
