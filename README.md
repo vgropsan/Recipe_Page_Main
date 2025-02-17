@@ -5,12 +5,14 @@ This project presents a UI design for a simple omelette recipe. The interface is
 ## 📷 Preview
 
 ### 📱 Mobile Design
-![mobile-design](https://github.com/user-attachments/assets/a3559005-0f44-41ae-a072-d2e46cf6f6bd)
-<img src="https://github.com/user-attachments/assets/a3559005-0f44-41ae-a072-d2e46cf6f6bd" data-canonical src="[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://github.com/user-attachments/assets/a3559005-0f44-41ae-a072-d2e46cf6f6bd)" height="400" />
+<img src="https://github.com/user-attachments/assets/a3559005-0f44-41ae-a072-d2e46cf6f6bd" data-canonical src="[[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://github.com/user-attachments/assets/a3559005-0f44-41ae-a072-d2e46cf6f6bd)]" height="400" />
 
 
 ### 🖥 Desktop Design
 ![Desktop Design](./preview.jpg)
+<img src="https://github.com/user-attachments/assets/e1947735-c575-495f-afad-77397fedf7ff" data-canonical src="
+   [https://github.com/user-attachments/assets/e1947735-c575-495f-afad-77397fedf7ff]" width="50%" />
+
 
 ## 🚀 Technologies Used
 - HTML
