@@ -1,0 +1,44 @@
+# 📄 Simple Omelette Recipe - UI Design
+
+This project presents a UI design for a simple omelette recipe. The interface is optimized for different devices, ensuring a smooth and attractive experience.
+
+## 📷 Preview
+
+### 📱 Mobile Design
+![Mobile Design](./mobile-design.jpg)
+
+### 🖥 Desktop Design
+![Desktop Design](./preview.jpg)
+
+## 🚀 Technologies Used
+- HTML
+- CSS (possible use of frameworks like TailwindCSS or Bootstrap)
+- JavaScript (if interactivity is required)
+
+## 📌 Features
+✅ Responsive design for mobile and desktop devices  
+✅ Clear presentation of ingredients and instructions  
+✅ Nutritional information section  
+✅ Minimalist and modern aesthetics  
+
+## 🛠 Installation and Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/your-repository.git
+   ```
+2. Open the `index.html` file in your browser.
+3. Customize styles or structure as needed.
+
+## ✨ Contributions
+Contributions are welcome. To make changes:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make changes and commit (`git commit -m 'Add new feature'`).
+4. Push changes to your fork (`git push origin feature/new-feature`).
+5. Open a Pull Request.
+
+## 📄 License
+This project is licensed under the MIT License. You are free to use and modify it.
+
+---
+💡 _If you have suggestions or improvements, feel free to share them._
