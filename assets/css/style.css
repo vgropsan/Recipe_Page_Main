@@ -233,7 +233,7 @@ td {
         border-radius: 0px;
     }
     .recipeImage {
-        height: 35vh;
+        height: 30vh;
         border-radius: 0px;
     }
     .recipeInformation h1 {
@@ -256,7 +256,7 @@ td {
         width: 90%;
     }
     .recipeImage {
-        height: 40vh;
+        height: 30vh;
     }
     .recipeInformation h1 {
         font-size: 36px;
@@ -278,7 +278,7 @@ td {
         width: 80%;
     }
     .recipeImage {
-        height: 40vh;
+        height: 30vh;
     }
     .recipeInformation h1 {
         font-size: 40px;
@@ -300,7 +300,7 @@ td {
         width: 90%;
     }
     .recipeImage {
-        height: 45vh;
+        height: 30vh;
     }
     .recipeInformation h1 {
         font-size: 48px;
