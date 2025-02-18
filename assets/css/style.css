@@ -1,233 +1,314 @@
 /* General styles */
 :root {
-    --white: hsl(0, 0%, 100%); /* Define white color */
-    --Stone100: hsl(30, 54%, 90%); /* Define light stone color */
-    --Stone150: hsl(30, 18%, 87%); /* Define slightly darker stone color */
-    --Stone600: hsl(30, 10%, 34%); /* Define dark stone color */
-    --Stone900: hsl(24, 5%, 18%); /* Define very dark stone color */
-    --Brown800: hsl(14, 45%, 36%); /* Define dark brown color */
-    --Rose800: hsl(332, 51%, 32%); /* Define dark rose color */
-    --Rose50: hsl(330, 100%, 98%); /* Define very light rose color */
-    --fontYoungSerif: "Young Serif", serif; /* Define Young Serif font */
-    --fontOutfit: "Outfit", serif; /* Define Outfit font */
-    --fontSize: 16px; /* Define base font size */
+    --white: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+    --fontYoungSerif: "Young Serif", serif;
+    --fontOutfit: "Outfit", serif;
+    --fontSize: 16px;
 }
 
 body {
-    background-color: var(--Stone100); /* Set body background color */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Arrange items in a column */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    font-size: var(--fontSize); /* Use base font size */
-    width: 100%; /* Set width to 100% */
-    margin: 0; /* Remove default margin */
-    font-family: var(--fontOutfit); /* Use Outfit font */
+    background-color: var(--Stone100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fontSize);
+    width: 100%;
+    margin: 0;
+    font-family: var(--fontOutfit);
 }
 
 .externalContainer {
-    border-radius: 2vh; /* Round corners */
-    background-color: var(--white); /* Set background color to white */
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    height: auto; /* Adjust height automatically */
-    width: 90vh; /* Set width to 90vh */
-    margin-bottom: 5vh; /* Add bottom margin */
+    border-radius: 2vh;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 90vh;
+    margin-bottom: 5vh;
 }
 
 .internalContainer {
-    border-radius: 2vh; /* Round corners */
-    width: 80vh; /* Set width to 80vh */
-    margin: 5vh 0; /* Add vertical margin */
+    border-radius: 2vh;
+    width: 80vh;
+    margin: 5vh 0;
 }
 
 .recipeImage {
-    background-image: url(../images/image-omelette.jpeg); /* Set background image */
-    background-size: cover; /* Cover the entire container */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    border-radius: 2vh; /* Round corners */
-    width: 100%; /* Set width to 100% */
-    height: 40vh; /* Set height to 40vh */
+    background-image: url(../images/image-omelette.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2vh;
+    width: 100%;
+    height: 40vh;
 }
 
 .recipeInformation h1 {
-    font-family: var(--fontYoungSerif); /* Use Young Serif font */
-    font-size: 42px; /* Set font size */
-    font-weight: 400; /* Set font weight */
-    color: black; /* Set text color */
+    font-family: var(--fontYoungSerif);
+    font-size: 42px;
+    font-weight: 400;
+    color: black;
 }
 
 .recipeInformation {
-    font-family: var(--fontOutfit); /* Use Outfit font */
-    font-weight: 400; /* Set font weight */
-    color: var(--Stone600); /* Set text color */
+    font-family: var(--fontOutfit);
+    font-weight: 400;
+    color: var(--Stone600);
 }
 
 .recipePreparationTime {
-    width: 100%; /* Set width to 100% */
-    background-color: var(--Rose50); /* Set background color */
-    border-radius: 1vh; /* Round corners */
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    margin: 4vh 0; /* Add vertical margin */
+    width: 100%;
+    background-color: var(--Rose50);
+    border-radius: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0;
 }
 
 .recipePreparationTimeContent {
-    width: 90%; /* Set width to 90% */
-    padding: 2vh; /* Add padding */
-    font-weight: 800; /* Set font weight */
-    font-size: 16px; /* Set font size */
-    color: var(--Stone600); /* Set text color */
+    width: 90%;
+    padding: 2vh;
+    font-weight: 800;
+    font-size: 16px;
+    color: var(--Stone600);
 }
 
 .recipePreparationTimeContent h4 {
-    color: var(--Rose800); /* Set text color */
-    font-size: 18px; /* Set font size */
-    font-family: var(--fontOutfit); /* Use Outfit font */
-    margin-bottom: 1vh; /* Add bottom margin */
+    color: var(--Rose800);
+    font-size: 18px;
+    font-family: var(--fontOutfit);
+    margin-bottom: 1vh;
 }
 
 .recipePreparationTimeContent li::marker {
-    color: var(--Rose800); /* Set list marker color */
+    color: var(--Rose800);
 }
 
 .recipePreparationTime p {
-    padding-left: 3vh; /* Add left padding */
+    padding-left: 3vh;
 }
 
 .recipePreparationTimeContent span {
-    font-weight: 400; /* Set font weight */
+    font-weight: 400;
 }
 
 .recipeIngredients, .recipeInstructions {
-    padding-bottom: 4vh; /* Add bottom padding */
-    border-bottom: 1px solid var(--Stone150); /* Add bottom border */
-    margin-bottom: 4vh; /* Add bottom margin */
+    padding-bottom: 4vh;
+    border-bottom: 1px solid var(--Stone150);
+    margin-bottom: 4vh;
 }
 
 .recipeIngredients li::marker, .recipeInstructions li::marker, .recipeNutrition h4 {
-    color: var(--Brown800); /* Set list marker and heading color */
+    color: var(--Brown800);
 }
 
 .recipeIngredients h4, .recipeInstructions h4, .recipeNutrition h4 {
-    color: var(--Brown800); /* Set text color */
-    font-family: var(--fontYoungSerif); /* Use Young Serif font */
-    font-size: 25px; /* Set font size */
-    font-weight: 400; /* Set font weight */
-    margin-bottom: 2vh; /* Add bottom margin */
+    color: var(--Brown800);
+    font-family: var(--fontYoungSerif);
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 2vh;
 }
 
 .recipeIngredients {
-    font-weight: 400; /* Set font weight */
-    font-family: var(--fontOutfit); /* Use Outfit font */
-    color: var(--Stone600); /* Set text color */
+    font-weight: 400;
+    font-family: var(--fontOutfit);
+    color: var(--Stone600);
 }
 
 .recipeIngredients p, .recipeInstructions p {
-    padding-left: 2vh; /* Add left padding */
+    padding-left: 2vh;
 }
 
 .recipeInstructions {
-    font-weight: 800; /* Set font weight */
-    font-family: var(--fontOutfit); /* Use Outfit font */
-    color: var(--Stone600); /* Set text color */
+    font-weight: 800;
+    font-family: var(--fontOutfit);
+    color: var(--Stone600);
 }
 
 .recipeInstructions span {
-    font-weight: 400; /* Set font weight */
+    font-weight: 400;
 }
 
 .recipeInstructions li {
-    margin-bottom: 1vh; /* Add bottom margin */
+    margin-bottom: 1vh;
 }
 
 .recipeInstructions li:last-of-type {
-    margin-bottom: 0; /* Remove bottom margin for last item */
+    margin-bottom: 0;
 }
 
 table {
-    width: 100%; /* Set width to 100% */
-    border-collapse: collapse; /* Collapse borders */
-    margin: 2vh 0; /* Add vertical margin */
-    font-family: var(--fontOutfit); /* Use Outfit font */
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2vh 0;
+    font-family: var(--fontOutfit);
 }
 
 td {
-    padding: 1vh 2vh; /* Add padding */
-    text-align: left; /* Align text to the left */
-    border-bottom: 1px solid var(--Stone150); /* Add bottom border */
-    color: var(--Stone600); /* Set text color */
-    font-weight: 400; /* Set font weight */
+    padding: 1vh 2vh;
+    text-align: left;
+    border-bottom: 1px solid var(--Stone150);
+    color: var(--Stone600);
+    font-weight: 400;
 }
 
 .recipeNutrition tr:last-of-type td {
-    border-bottom: none; /* Remove bottom border for last row in nutrition table */
+    border-bottom: none;
 }
 
 .recipeNutrition p {
-    margin: 2vh 0; /* Add vertical margin */
-    color: var(--Stone600); /* Set text color */
+    margin: 2vh 0;
+    color: var(--Stone600);
 }
 
 .recipeNutrition span {
-    color: var(--Brown800); /* Set text color */
-    font-weight: 600; /* Set font weight */
+    color: var(--Brown800);
+    font-weight: 600;
 }
 
 .attribution {
-    font-size: 11px; /* Set font size */
-    text-align: center; /* Center text */
-    color: #1D1616; /* Set text color */
-    text-align: left; /* Align text to the left */
+    font-size: 11px;
+    text-align: center;
+    color: #1D1616;
+    text-align: left;
 }
 
 .attribution a {
-    color: #8E1616; /* Set link color */
+    color: #8E1616;
 }
 
 /* Media Query for mobile screens */
 @media (max-width: 375px) {
     .externalContainer {
-        width: 90%; /* Adjust width to 90% */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 0px;
     }
     .internalContainer {
-        width: 100%; /* Adjust width to 100% */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 0px;
     }
     .recipeImage {
-        height: 30vh; /* Adjust height to 30vh */
+        height: 30vh;
+        width: 100%;
+        border-radius: 0px;
     }
     .recipeInformation h1 {
-        font-size: 32px; /* Adjust font size */
+        font-size: 32px;
     }
     .recipePreparationTimeContent h4 {
-        font-size: 16px; /* Adjust font size */
+        font-size: 16px;
     }
     .recipeIngredients h4, .recipeInstructions h4, .recipeNutrition h4 {
-        font-size: 20px; /* Adjust font size */
+        font-size: 20px;
+    }
+}
+
+/* Media Query for small tablets */
+@media (min-width: 376px) and (max-width: 768px) {
+    .externalContainer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 0px;
+    }
+    .internalContainer {
+        width: 100%;
+        margin: 0;
+        padding: 1vh;
+        border-radius: 0px;
+    }
+    .recipeImage {
+        height: 35vh;
+        border-radius: 0px;
+    }
+    .recipeInformation h1 {
+        font-size: 34px;
+    }
+    .recipePreparationTimeContent h4 {
+        font-size: 18px;
+    }
+    .recipeIngredients h4, .recipeInstructions h4, .recipeNutrition h4 {
+        font-size: 22px;
+    }
+}
+
+/* Media Query for large tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .externalContainer {
+        width: 90%;
+    }
+    .internalContainer {
+        width: 90%;
+    }
+    .recipeImage {
+        height: 40vh;
+    }
+    .recipeInformation h1 {
+        font-size: 36px;
+    }
+    .recipePreparationTimeContent h4 {
+        font-size: 20px;
+    }
+    .recipeIngredients h4, .recipeInstructions h4, .recipeNutrition h4 {
+        font-size: 24px;
     }
 }
 
 /* Media Query for desktop screens */
-@media (min-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1439px) {
     .externalContainer {
-        width: 60%; /* Adjust width to 60% */
+        width: 80%;
     }
     .internalContainer {
-        width: 80%; /* Adjust width to 80% */
+        width: 80%;
     }
     .recipeImage {
-        height: 50vh; /* Adjust height to 50vh */
+        height: 40vh;
     }
     .recipeInformation h1 {
-        font-size: 48px; /* Adjust font size */
+        font-size: 40px;
     }
     .recipePreparationTimeContent h4 {
-        font-size: 20px; /* Adjust font size */
+        font-size: 22px;
     }
     .recipeIngredients h4, .recipeInstructions h4, .recipeNutrition h4 {
-        font-size: 28px; /* Adjust font size */
+        font-size: 26px;
+    }
+}
+
+/* Media Query for large desktop screens */
+@media (min-width: 1440px) {
+    .externalContainer {
+        width: 60%;
+    }
+    .internalContainer {
+        width: 90%;
+    }
+    .recipeImage {
+        height: 45vh;
+    }
+    .recipeInformation h1 {
+        font-size: 48px;
+    }
+    .recipePreparationTimeContent h4 {
+        font-size: 20px;
+    }
+    .recipeIngredients h4, .recipeInstructions h4, .recipeNutrition h4 {
+        font-size: 28px;
     }
 }
